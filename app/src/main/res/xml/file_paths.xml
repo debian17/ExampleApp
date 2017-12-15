@@ -1,0 +1,4 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path name="/data/user/0/com.example.citilin.testapp/files" path="/SharingPictures" />
+    <external-path name="/storage/emulated/0/" path="/" />
+</paths>

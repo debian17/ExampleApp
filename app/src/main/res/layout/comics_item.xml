@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/CV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        card_view:cardBackgroundColor="#e8eaf6"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="3dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/vgComicsImage"
+                android:layout_width="110dp"
+                android:layout_height="180dp"
+                android:layout_marginRight="5dp"
+                />
+
+            <TextView
+                android:id="@+id/vgComicsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/vgComicsImage"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvComicsFormat"
+                android:layout_below="@id/vgComicsTitle"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/vgComicsImage"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvComicsPages"
+                android:layout_toRightOf="@id/vgComicsImage"
+                android:layout_below="@id/tvComicsFormat"
+                />
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

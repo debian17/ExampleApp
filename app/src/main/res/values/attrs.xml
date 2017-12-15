@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Counter">
+        <attr name="counter_textSize" format="float" />
+        <attr name="counter_textColor" format="color" />
+        <attr name="counter_backgroundColor" format="color" />
+        <attr name="counter_title" format="string" />
+        <attr name="counter_value" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/listCharacters"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/list_characters" />
+        <item
+            android:id="@+id/listMyCharacters"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/list_my_characters" />
+
+        <item
+            android:id="@+id/timeFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/time" />
+
+
+        <item
+            android:id="@+id/aboutApp"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/test"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/test" />
+
+        <item
+            android:id="@+id/web"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/web_view" />
+
+        <item
+            android:id="@+id/rxjava"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/rx_java" />
+
+        <item
+            android:id="@+id/contacts"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/contacts" />
+
+        <item
+            android:id="@+id/dialog"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/dialog_fragment" />
+
+    </group>
+
+</menu>

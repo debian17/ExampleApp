@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.citilin.testapp.ui.test.TestFragment">
+
+    <Button
+        android:id="@+id/bottomBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bottomActivity" />
+
+    <Button
+        android:id="@+id/tabbedBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tabbedActivity" />
+
+    <Button
+        android:id="@+id/startServiceBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start service" />
+
+    <Button
+        android:id="@+id/stopServiceBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop service" />
+
+    <Button
+        android:id="@+id/handlerBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="handler" />
+
+    <TextView
+        android:id="@+id/handlerTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/activityTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="startActivity"/>
+
+</LinearLayout>

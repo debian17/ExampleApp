@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <com.example.citilin.testapp.ui.webview.Counter xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/counter"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        app:counter_backgroundColor="#00ff00"
+        app:counter_textColor="#ff0000"
+        app:counter_textSize="20"
+        app:counter_title="My custom title"
+        app:counter_value="10">
+
+    </com.example.citilin.testapp.ui.webview.Counter>
+
+    <Button
+        android:id="@+id/counter_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/counter_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="minus" />
+
+    <Button
+        android:id="@+id/downLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="download" />
+
+</LinearLayout>
+
